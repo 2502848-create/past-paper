@@ -3,19 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CPP 702 Internet Application Programming revision answers and practical HTML/CSS examples.">
+  <meta name="description" content="CPP 702 Internet Application Programming revision answers and practical demonstrations.">
   <title>CPP 702 | Internet Application Programming</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
 <header class="site-header">
   <div class="brand">
-    <a href="#top" class="brand-mark" aria-label="Go to top">CPP</a>
-    <div><strong>Internet Application Programming</strong><span>CPP 702 · Revision notes & practical work</span></div>
+    <a href="#top" class="brand-mark">CPP</a>
+    <div>
+      <strong>Internet Application Programming</strong>
+      <span>CPP 702 · Revision Notes</span>
+    </div>
   </div>
+
   <nav class="main-nav" aria-label="Question navigation">
     <a href="#question-one">Question 1</a>
     <a href="#question-two">Question 2</a>
@@ -24,318 +30,547 @@
 </header>
 
 <main id="top">
-  <section class="hero">
-    <div class="hero-inner">
-      <p class="eyebrow">KCA University · Diploma in Business Information Technology</p>
-      <h1>Internet Application Programming</h1>
-      <p class="hero-copy">Clear answers, code examples and practical demonstrations for the selected examination questions.</p>
-      <div class="hero-actions">
-        <a class="button" href="#question-one">Start with Question 1</a>
-        <a class="button button-outline" href="#question-three">View practical examples</a>
-      </div>
+
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">KCA University · Diploma in Business Information Technology</p>
+    <h1>Internet Application Programming</h1>
+    <p class="hero-copy">
+      Examination revision answers and practical demonstrations
+      covering HTML5, CSS and responsive web development.
+    </p>
+    <div class="hero-actions">
+      <a class="button" href="#question-one">Start Revision</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="quick-nav" aria-label="Jump to a question">
-    <a href="#question-one"><span>01</span><strong>Question One</strong><small>HTML, CSS & forms</small></a>
-    <a href="#question-two"><span>02</span><strong>Question Two</strong><small>Tables, lists & links</small></a>
-    <a href="#question-three"><span>03</span><strong>Question Three</strong><small>Selectors & layouts</small></a>
-  </section>
+<section class="quick-nav" aria-label="Question navigation">
+  <a href="#question-one">
+    <span>01</span>
+    <strong>Question One</strong>
+    <small>HTML, CSS and Forms</small>
+  </a>
 
-  <section class="question-section" id="question-one">
-    <div class="section-heading"><div><p class="eyebrow">Selected parts · 1(b–e)</p><h2>Question One</h2></div><a class="back-top" href="#top">Back to top ↑</a></div>
+  <a href="#question-two">
+    <span>02</span>
+    <strong>Question Two</strong>
+    <small>Tables, Lists and Links</small>
+  </a>
 
-    <article class="answer-card" id="q1b">
-      <div class="part-label">QUESTION 1(b) · 4 MARKS</div>
-      <h3>CSS Box Model</h3>
-      <p>The CSS Box Model explains how the browser displays and sizes every HTML element. It has four layers:</p>
-      <ol>
-        <li><strong>Content:</strong> The actual text, image or other material inside the element. Its width and height can be set using CSS.</li>
-        <li><strong>Padding:</strong> The space between the content and the border. It creates breathing room inside the element.</li>
-        <li><strong>Border:</strong> The line surrounding the content and padding. It can have a width, style and colour.</li>
-        <li><strong>Margin:</strong> The transparent space outside the border. It separates the element from neighbouring elements.</li>
-      </ol>
-      <div class="box-model-demo" aria-label="CSS box model illustration">
-        <div class="margin-layer"><span class="layer-name">MARGIN</span>
-          <div class="border-layer"><span class="layer-name">BORDER</span>
-            <div class="padding-layer"><span class="layer-name">PADDING</span>
-              <div class="content-layer">CONTENT<br><small>Product image, name and price</small></div>
+  <a href="#question-three">
+    <span>03</span>
+    <strong>Question Three</strong>
+    <small>Selectors and Layouts</small>
+  </a>
+</section>
+
+<!-- QUESTION ONE -->
+
+<section class="question-section" id="question-one">
+
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Selected parts · 1(b–e)</p>
+      <h2>Question One</h2>
+    </div>
+    <a class="back-top" href="#top">Back to top ↑</a>
+  </div>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 1(b) · 4 MARKS</div>
+    <h3>CSS Box Model</h3>
+
+    <p>
+      The CSS Box Model explains how the browser displays and
+      sizes every HTML element. It consists of four layers:
+    </p>
+
+    <ol>
+      <li><strong>Content:</strong> The actual text, image or material inside an element.</li>
+      <li><strong>Padding:</strong> Space between the content and the border.</li>
+      <li><strong>Border:</strong> The line surrounding the content and padding.</li>
+      <li><strong>Margin:</strong> The space outside the border separating elements.</li>
+    </ol>
+
+    <h4>Practical demonstration</h4>
+
+    <div class="box-model-demo" aria-label="CSS box model demonstration">
+      <div class="margin-layer">
+        <span class="layer-name">MARGIN</span>
+        <div class="border-layer">
+          <span class="layer-name">BORDER</span>
+          <div class="padding-layer">
+            <span class="layer-name">PADDING</span>
+            <div class="content-layer">
+              CONTENT
+              <br>
+              <small>Product image, name and price</small>
             </div>
           </div>
         </div>
       </div>
-      <p><strong>Application to an e-commerce product card:</strong> Content displays the product details; padding keeps those details away from the card edge; border outlines the card; and margin separates the card from other product cards.</p>
-      <pre><code>.product-card {
-  width: 250px;
-  padding: 16px;
-  border: 2px solid #6b4b35;
-  margin: 12px;
-}</code></pre>
-    </article>
+    </div>
 
-    <article class="answer-card" id="q1c">
-      <div class="part-label">QUESTION 1(c) · 6 MARKS</div>
-      <h3>HTML5 page for a Nairobi food-security NGO</h3>
-      <p>The page below includes the required title, heading, mission paragraph, three programmes, donation hyperlink and an image with meaningful alternative text.</p>
-      <div class="demo-frame">
-        <div class="ngo-demo">
-          <div class="ngo-banner">FOOD FOR ALL INITIATIVE</div>
-          <h4>Working towards a hunger-free Nairobi</h4>
-          <p>Our mission is to reduce food insecurity by connecting vulnerable families with nutritious food, supporting local farmers and educating communities about healthy eating.</p>
-          <h5>Our programmes</h5>
-          <ul><li>Community food distribution</li><li>School feeding programme</li><li>Urban farming and nutrition training</li></ul>
-          <div class="ngo-placeholder" role="img" aria-label="Volunteers distributing food parcels to a local community">Community food support</div>
-          <a class="button small-button" href="#donate-demo">Support our work</a>
-          <p id="donate-demo" class="demo-note">Donation link demonstration.</p>
+    <p>
+      <strong>Application:</strong> In an e-commerce product card,
+      content displays product details, padding creates space
+      inside the card, the border outlines the card and margin
+      separates it from other cards.
+    </p>
+  </article>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 1(c) · 6 MARKS</div>
+    <h3>HTML5 Page for a Nairobi Food-Security NGO</h3>
+
+    <p>
+      An NGO website should communicate its mission, programmes
+      and ways in which the public can support its activities.
+    </p>
+
+    <h4>Practical website demonstration</h4>
+
+    <div class="demo-frame">
+      <div class="ngo-demo">
+
+        <div class="ngo-banner">FOOD FOR ALL INITIATIVE</div>
+
+        <h4>Working towards a hunger-free Nairobi</h4>
+
+        <p>
+          Our mission is to reduce food insecurity by connecting
+          vulnerable families with nutritious food, supporting
+          local farmers and educating communities about healthy eating.
+        </p>
+
+        <h5>Our Programmes</h5>
+
+        <ul>
+          <li>Community food distribution</li>
+          <li>School feeding programme</li>
+          <li>Urban farming and nutrition training</li>
+        </ul>
+
+        <div class="ngo-placeholder" role="img"
+             aria-label="Illustration representing volunteers distributing food parcels">
+          Community Food Support
         </div>
+
+        <a class="button small-button" href="#donate-demo">
+          Support Our Work
+        </a>
+
+        <p id="donate-demo" class="demo-note">
+          Thank you for supporting our food-security initiative.
+        </p>
+
       </div>
-      <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;title&gt;Food for All Initiative&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Food for All Initiative&lt;/h1&gt;
-  &lt;p&gt;Our mission is to reduce food insecurity in Nairobi
-    by connecting vulnerable families with nutritious food.&lt;/p&gt;
-  &lt;h2&gt;Our Programmes&lt;/h2&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Community food distribution&lt;/li&gt;
-    &lt;li&gt;School feeding programme&lt;/li&gt;
-    &lt;li&gt;Urban farming and nutrition training&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;img src="images/food-donation.jpg"
-       alt="Volunteers distributing food parcels to families"&gt;
-  &lt;p&gt;&lt;a href="donate.html"&gt;Donate to our cause&lt;/a&gt;&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-    </article>
+    </div>
 
-    <article class="answer-card" id="q1d">
-      <div class="part-label">QUESTION 1(d) · 2 MARKS</div>
-      <h3>Ways of applying CSS</h3>
-      <ul>
-        <li><strong>Inline CSS:</strong> Written inside an HTML element using the <code>style</code> attribute, e.g. <code>&lt;p style="color: red"&gt;</code>. It affects that element only.</li>
-        <li><strong>Internal CSS:</strong> Written inside a <code>&lt;style&gt;</code> element in the page's <code>&lt;head&gt;</code>. It styles that single page.</li>
-        <li><strong>External CSS:</strong> Written in a separate <code>.css</code> file and connected using <code>&lt;link rel="stylesheet" href="css/style.css"&gt;</code>.</li>
-      </ul>
-      <p><strong>Recommendation:</strong> External CSS is best for a large multi-page government portal because one stylesheet can keep all pages consistent, can be reused, and is easier to maintain and update.</p>
-    </article>
+    <p>
+      The demonstration contains a heading, mission statement,
+      programme list, visual representation and donation link.
+    </p>
+  </article>
 
-    <article class="answer-card" id="q1e">
-      <div class="part-label">QUESTION 1(e) · 3 MARKS</div>
-      <h3>Correcting errors in the student registration form</h3>
-      <p>Three issues to correct in the supplied snippet:</p>
-      <ol>
-        <li><strong>Radio buttons have different names.</strong> The Male option uses <code>name="gender"</code> but Female uses <code>name="sex"</code>. Give both the same name so only one option can be selected in the group.</li>
-        <li><strong>Inputs have no labels.</strong> Add matching <code>&lt;label for="..."&gt;</code> elements so users, including people using screen readers, know what each field means.</li>
-        <li><strong>Inputs have no clear identifiers.</strong> Add unique <code>id</code> values and connect labels to them. This also makes the form easier to use.</li>
-      </ol>
-      <pre><code>&lt;form action="#" method="post"&gt;
-  &lt;label for="studentName"&gt;Student name&lt;/label&gt;
-  &lt;input type="text" id="studentName" name="studentName"&gt;
+  <article class="answer-card">
+    <div class="part-label">QUESTION 1(d) · 2 MARKS</div>
+    <h3>Ways of Applying CSS</h3>
 
-  &lt;fieldset&gt;
-    &lt;legend&gt;Gender&lt;/legend&gt;
-    &lt;label&gt;&lt;input type="radio" name="gender" value="Male"&gt; Male&lt;/label&gt;
-    &lt;label&gt;&lt;input type="radio" name="gender" value="Female"&gt; Female&lt;/label&gt;
-  &lt;/fieldset&gt;
+    <ul>
+      <li>
+        <strong>Inline CSS:</strong> Written directly inside an HTML
+        element using the style attribute. It affects one element.
+      </li>
 
-  &lt;button type="submit"&gt;Register&lt;/button&gt;
-&lt;/form&gt;</code></pre>
-      <p class="note"><strong>Exam note:</strong> The key functional error in the supplied code is the inconsistent radio-button <code>name</code>. The label and identifier improvements make the form accessible and easier to use.</p>
-    </article>
-  </section>
+      <li>
+        <strong>Internal CSS:</strong> Written inside a style element
+        in the HTML head. It styles a single webpage.
+      </li>
 
-  <section class="question-section alt-section" id="question-two">
-    <div class="section-heading"><div><p class="eyebrow">Selected parts · 2(a–d)</p><h2>Question Two</h2></div><a class="back-top" href="#top">Back to top ↑</a></div>
+      <li>
+        <strong>External CSS:</strong> Written in a separate CSS file
+        and connected to HTML. It can style multiple webpages.
+      </li>
+    </ul>
 
-    <article class="answer-card" id="q2a">
-      <div class="part-label">QUESTION 2(a) · 5 MARKS</div>
-      <h3>HTML table: County Internet Users</h3>
-      <p>The table uses a visible border, a shaded header row and a caption, as required.</p>
-      <div class="table-scroll">
-        <table class="data-table">
-          <caption>County | Internet Users (millions) | % Penetration</caption>
-          <thead><tr><th scope="col">County</th><th scope="col">Internet Users (millions)</th><th scope="col">% Penetration</th></tr></thead>
-          <tbody>
-            <tr><td>Nairobi</td><td>6.2</td><td>72%</td></tr>
-            <tr><td>Mombasa</td><td>1.8</td><td>55%</td></tr>
-            <tr><td>Kisumu</td><td>0.9</td><td>41%</td></tr>
-            <tr><td>Nakuru</td><td>1.1</td><td>48%</td></tr>
-            <tr><td>Eldoret</td><td>0.7</td><td>39%</td></tr>
-          </tbody>
-        </table>
+    <p>
+      <strong>Recommendation:</strong> External CSS is best for a
+      large multi-page government portal because it maintains
+      consistency and makes updating the website easier.
+    </p>
+  </article>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 1(e) · 3 MARKS</div>
+    <h3>Correcting Errors in a Student Registration Form</h3>
+
+    <p>Three problems that can occur in a student registration form:</p>
+
+    <ol>
+      <li>
+        <strong>Different radio button names:</strong>
+        Both gender options should have the same name so that
+        only one option can be selected.
+      </li>
+
+      <li>
+        <strong>Missing labels:</strong>
+        Each input should have a label explaining what information
+        the user should enter.
+      </li>
+
+      <li>
+        <strong>Missing identifiers:</strong>
+        Each input should have a unique ID connected to its label.
+      </li>
+    </ol>
+
+    <h4>Practical Student Registration Form</h4>
+
+    <div class="demo-frame">
+      <form class="registration-demo"
+            action="#registration-result"
+            method="get">
+
+        <h3>Student Registration</h3>
+
+        <label for="studentName">Student Name</label>
+        <input type="text" id="studentName"
+               name="studentName"
+               placeholder="Enter your full name"
+               required>
+
+        <label for="studentEmail">Email Address</label>
+        <input type="email" id="studentEmail"
+               name="studentEmail"
+               placeholder="Enter your email"
+               required>
+
+        <fieldset>
+          <legend>Gender</legend>
+
+          <label>
+            <input type="radio" name="gender" value="Male" required>
+            Male
+          </label>
+
+          <label>
+            <input type="radio" name="gender" value="Female">
+            Female
+          </label>
+        </fieldset>
+
+        <button type="submit" class="button">Register</button>
+
+        <p id="registration-result" class="demo-note">
+          Registration form demonstration.
+        </p>
+
+      </form>
+    </div>
+
+    <p class="note">
+      <strong>Exam note:</strong> The main functional error is
+      the inconsistent radio-button name. Labels and unique IDs
+      also improve accessibility and usability.
+    </p>
+  </article>
+
+</section>
+
+<!-- QUESTION TWO -->
+
+<section class="question-section alt-section" id="question-two">
+
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Selected parts · 2(a–d)</p>
+      <h2>Question Two</h2>
+    </div>
+    <a class="back-top" href="#top">Back to top ↑</a>
+  </div>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 2(a) · 5 MARKS</div>
+    <h3>HTML Table: County Internet Users</h3>
+
+    <p>
+      An HTML table organises information into rows and columns.
+      The following table displays internet usage in selected counties.
+    </p>
+
+    <div class="table-scroll">
+      <table class="data-table">
+        <caption>County Internet Users and Penetration</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">County</th>
+            <th scope="col">Internet Users (millions)</th>
+            <th scope="col">% Penetration</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr><td>Nairobi</td><td>6.2</td><td>72%</td></tr>
+          <tr><td>Mombasa</td><td>1.8</td><td>55%</td></tr>
+          <tr><td>Kisumu</td><td>0.9</td><td>41%</td></tr>
+          <tr><td>Nakuru</td><td>1.1</td><td>48%</td></tr>
+          <tr><td>Eldoret</td><td>0.7</td><td>39%</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </article>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 2(b) · 3 MARKS</div>
+    <h3>Three Types of HTML Lists</h3>
+
+    <ul>
+      <li>
+        <strong>Unordered list (UL):</strong>
+        Displays items using bullets. Example: a bank listing
+        services such as savings accounts and loans.
+      </li>
+
+      <li>
+        <strong>Ordered list (OL):</strong>
+        Displays items in a numbered sequence. Example:
+        steps for opening a bank account.
+      </li>
+
+      <li>
+        <strong>Description list (DL):</strong>
+        Displays terms and their explanations. Example:
+        a glossary of banking terms.
+      </li>
+    </ul>
+  </article>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 2(c) · 3 MARKS</div>
+    <h3>Absolute and Relative Hyperlinks</h3>
+
+    <ul>
+      <li>
+        <strong>Absolute hyperlink:</strong>
+        Contains the full web address, including the protocol
+        and domain. Example: linking to the Central Bank of Kenya
+        website.
+      </li>
+
+      <li>
+        <strong>Relative hyperlink:</strong>
+        Contains the path to another file within the same website.
+        Example: linking to accounts.html.
+      </li>
+    </ul>
+
+    <p>
+      Relative hyperlinks are useful in a bank intranet because
+      they continue working when a website is moved to another
+      domain, provided its folder structure remains the same.
+    </p>
+  </article>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 2(d) · 4 MARKS</div>
+    <h3>Importance of the Image Alt Attribute</h3>
+
+    <p>
+      The alt attribute provides a text alternative describing
+      an image. Missing alternative text can cause several problems:
+    </p>
+
+    <ol>
+      <li>
+        <strong>Screen-reader users:</strong>
+        Visually impaired users may not understand important
+        health images and diagrams.
+      </li>
+
+      <li>
+        <strong>Slow internet connections:</strong>
+        If an image fails to load, alternative text can still
+        communicate its purpose.
+      </li>
+
+      <li>
+        <strong>People with learning difficulties:</strong>
+        Text descriptions can make visual information easier
+        to understand.
+      </li>
+
+      <li>
+        <strong>Website accessibility:</strong>
+        Missing descriptions reduce accessibility and make
+        public-health information less available.
+      </li>
+    </ol>
+
+    <p>
+      <strong>Example:</strong> An image showing a nurse
+      administering a vaccine should have a meaningful description.
+    </p>
+  </article>
+
+</section>
+
+<!-- QUESTION THREE -->
+
+<section class="question-section" id="question-three">
+
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Selected parts · 3(a–c)</p>
+      <h2>Question Three</h2>
+    </div>
+    <a class="back-top" href="#top">Back to top ↑</a>
+  </div>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 3(a) · 6 MARKS</div>
+    <h3>CSS Selector Types</h3>
+
+    <p>
+      CSS selectors identify HTML elements that should receive
+      particular styles.
+    </p>
+
+    <div class="selector-list">
+
+      <div>
+        <strong>1. Universal Selector (*)</strong>
+        <p>Selects all elements on a webpage.</p>
       </div>
-      <pre><code>&lt;table border="1"&gt;
-  &lt;caption&gt;County | Internet Users (millions) | % Penetration&lt;/caption&gt;
-  &lt;thead bgcolor="#d9e8f5"&gt;
-    &lt;tr&gt;&lt;th&gt;County&lt;/th&gt;&lt;th&gt;Internet Users (millions)&lt;/th&gt;
-      &lt;th&gt;% Penetration&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;Nairobi&lt;/td&gt;&lt;td&gt;6.2&lt;/td&gt;&lt;td&gt;72%&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Mombasa&lt;/td&gt;&lt;td&gt;1.8&lt;/td&gt;&lt;td&gt;55%&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Kisumu&lt;/td&gt;&lt;td&gt;0.9&lt;/td&gt;&lt;td&gt;41%&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Nakuru&lt;/td&gt;&lt;td&gt;1.1&lt;/td&gt;&lt;td&gt;48%&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;Eldoret&lt;/td&gt;&lt;td&gt;0.7&lt;/td&gt;&lt;td&gt;39%&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</code></pre>
-      <p class="note">For modern styling, the header background is preferably set with CSS rather than the older <code>bgcolor</code> attribute.</p>
-    </article>
 
-    <article class="answer-card" id="q2b">
-      <div class="part-label">QUESTION 2(b) · 3 MARKS</div>
-      <h3>Three types of HTML lists</h3>
-      <ul>
-        <li><strong>Unordered list (<code>&lt;ul&gt;</code>):</strong> Displays items with bullets. Example: a bank website listing services such as savings accounts, loans and mobile banking.</li>
-        <li><strong>Ordered list (<code>&lt;ol&gt;</code>):</strong> Displays items in sequence, usually numbered. Example: steps for opening a bank account.</li>
-        <li><strong>Description list (<code>&lt;dl&gt;</code>):</strong> Displays terms and their explanations using <code>&lt;dt&gt;</code> and <code>&lt;dd&gt;</code>. Example: a glossary explaining banking terms such as interest, deposit and withdrawal.</li>
-      </ul>
-    </article>
-
-    <article class="answer-card" id="q2c">
-      <div class="part-label">QUESTION 2(c) · 3 MARKS</div>
-      <h3>Absolute and relative hyperlinks</h3>
-      <ul>
-        <li><strong>Absolute hyperlink:</strong> Contains the full web address, including protocol and domain. Use it to link to an external website. Example: <code>&lt;a href="https://www.centralbank.go.ke/"&gt;Central Bank of Kenya&lt;/a&gt;</code>.</li>
-        <li><strong>Relative hyperlink:</strong> Gives a path to another file within the same website. Use it for internal navigation. Example: <code>&lt;a href="accounts.html"&gt;Accounts&lt;/a&gt;</code> or <code>&lt;a href="staff/profile.html"&gt;Staff profile&lt;/a&gt;</code>.</li>
-      </ul>
-      <p>Relative links are useful inside the bank intranet because they continue to work if the whole website is moved to another domain or server, provided the folder structure stays the same.</p>
-    </article>
-
-    <article class="answer-card" id="q2d">
-      <div class="part-label">QUESTION 2(d) · 4 MARKS</div>
-      <h3>Importance of the image alt attribute</h3>
-      <p>The <code>alt</code> attribute provides a text alternative describing an image. If 80% of images on a public health website have no alt text, users may experience these consequences:</p>
-      <ol>
-        <li><strong>Screen-reader users:</strong> People who are blind or have low vision may not understand important health images, diagrams or notices because assistive technology has no useful description to read.</li>
-        <li><strong>Users with slow or unreliable internet:</strong> If an image fails to load, meaningful alt text can still communicate its purpose or information.</li>
-        <li><strong>People with cognitive or learning difficulties:</strong> Text alternatives can make the meaning of visual information easier to understand when used with clear page content.</li>
-        <li><strong>Website owners and the public:</strong> Missing alternatives reduce accessibility and may make important public-health information less available to everyone.</li>
-      </ol>
-      <p><strong>Example:</strong> <code>&lt;img src="vaccination-clinic.jpg" alt="Nurse administering a vaccine to a child at a clinic"&gt;</code></p>
-    </article>
-  </section>
-
-  <section class="question-section" id="question-three">
-    <div class="section-heading"><div><p class="eyebrow">Selected parts · 3(a–c)</p><h2>Question Three</h2></div><a class="back-top" href="#top">Back to top ↑</a></div>
-
-    <article class="answer-card" id="q3a">
-      <div class="part-label">QUESTION 3(a) · 6 MARKS</div>
-      <h3>CSS selector types</h3>
-      <p>Selectors identify which HTML elements should receive a CSS style.</p>
-      <div class="selector-list">
-        <div><strong>1. Universal selector (<code>*</code>)</strong><p>Selects every element on the page.</p><pre><code>* { box-sizing: border-box; }</code></pre></div>
-        <div><strong>2. Class selector (<code>.classname</code>)</strong><p>Selects all elements with a particular class.</p><pre><code>.notice { background: #fff3cd; }</code></pre></div>
-        <div><strong>3. ID selector (<code>#idname</code>)</strong><p>Selects the element with the matching unique ID.</p><pre><code>#main-header { background: navy; }</code></pre></div>
-        <div><strong>4. Descendant selector (parent child)</strong><p>Selects matching elements located anywhere inside another element.</p><pre><code>.news-card p { color: #444; }</code></pre></div>
-        <div><strong>5. Pseudo-class selector (<code>:hover</code>)</strong><p>Styles an element when it is in a particular state, such as when the pointer is over a link.</p><pre><code>a:hover { color: orange; }</code></pre></div>
-        <div><strong>6. Attribute selector (<code>[type="text"]</code>)</strong><p>Selects elements based on an attribute or attribute value.</p><pre><code>input[type="text"] { border: 1px solid #777; }</code></pre></div>
+      <div>
+        <strong>2. Class Selector (.classname)</strong>
+        <p>Selects elements belonging to a particular class.</p>
       </div>
-    </article>
 
-    <article class="answer-card" id="q3b">
-      <div class="part-label">QUESTION 3(b) · 4 MARKS · PRACTICAL</div>
-      <h3>Horizontal navigation bar for an online news portal</h3>
-      <p>Practical preview: dark background, white links, evenly spaced items, no underline and orange hover colour.</p>
-      <div class="news-nav-demo">
-        <a href="#q3b">Home</a><a href="#q3b">Politics</a><a href="#q3b">Business</a><a href="#q3b">Technology</a><a href="#q3b">Sports</a>
+      <div>
+        <strong>3. ID Selector (#idname)</strong>
+        <p>Selects an element with a specific unique ID.</p>
       </div>
-      <pre><code>&lt;nav class="news-nav"&gt;
-  &lt;a href="index.html"&gt;Home&lt;/a&gt;
-  &lt;a href="politics.html"&gt;Politics&lt;/a&gt;
-  &lt;a href="business.html"&gt;Business&lt;/a&gt;
-  &lt;a href="technology.html"&gt;Technology&lt;/a&gt;
-  &lt;a href="sports.html"&gt;Sports&lt;/a&gt;
-&lt;/nav&gt;</code></pre>
-      <pre><code>.news-nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: #1a1a2e;
-  padding: 15px;
-}
-.news-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 8px 14px;
-}
-.news-nav a:hover {
-  color: #f0a500;
-}</code></pre>
-    </article>
 
-    <article class="answer-card" id="q3c">
-      <div class="part-label">QUESTION 3(c) · 5 MARKS · PRACTICAL</div>
-      <h3>Responsive climate-awareness campaign layout</h3>
-      <p>The example uses CSS Grid for two columns: a “Quick Facts” sidebar on the left and the main article on the right. At screen widths below 600px, it becomes one column. The font uses Google Fonts with safe fallback fonts.</p>
-      <div class="climate-demo">
-        <aside class="climate-facts">
-          <h4>Quick Facts</h4>
-          <ul><li>Plant trees and protect forests.</li><li>Save electricity and water.</li><li>Walk, cycle or use public transport where possible.</li><li>Reduce, reuse and recycle waste.</li></ul>
-        </aside>
-        <article class="climate-article">
-          <p class="eyebrow">CLIMATE ACTION · KENYA</p>
-          <h4>Small actions. A healthier planet.</h4>
-          <p>Climate change affects rainfall, food production, water availability and livelihoods. Communities can help by conserving resources, planting indigenous trees, reducing waste and choosing cleaner transport.</p>
-          <p>Schools, families and local organisations can organise clean-ups, tree-growing activities and awareness campaigns. Every practical action contributes to a more sustainable environment.</p>
-        </article>
+      <div>
+        <strong>4. Descendant Selector</strong>
+        <p>Selects elements located inside another element.</p>
       </div>
-      <pre><code>&lt;div class="climate-layout"&gt;
-  &lt;aside class="quick-facts"&gt;
-    &lt;h2&gt;Quick Facts&lt;/h2&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Plant and protect trees&lt;/li&gt;
-      &lt;li&gt;Save water and electricity&lt;/li&gt;
-      &lt;li&gt;Reduce, reuse and recycle&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/aside&gt;
-  &lt;main class="climate-article"&gt;
-    &lt;h1&gt;Protect Our Climate&lt;/h1&gt;
-    &lt;p&gt;Climate change affects rainfall, food production
-      and livelihoods. Everyone can take action.&lt;/p&gt;
-  &lt;/main&gt;
-&lt;/div&gt;</code></pre>
-      <pre><code>/* Google font link goes in the HTML head:
-   &lt;link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap"
-   rel="stylesheet"&gt; */
 
-body {
-  font-family: 'Roboto', Arial, sans-serif;
-  line-height: 1.6;
-}
-.climate-layout {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 24px;
-  max-width: 1100px;
-  margin: 30px auto;
-  padding: 20px;
-}
-.quick-facts {
-  background: #e7f3e8;
-  padding: 20px;
-}
-.climate-article {
-  background: #fff;
-  padding: 20px;
-}
-@media (max-width: 600px) {
-  .climate-layout {
-    grid-template-columns: 1fr;
-  }
-}</code></pre>
-      <p class="note"><strong>Why it is responsive:</strong> The grid starts with two columns on wider screens. The media query changes the grid to one column at 600px and below, so the sidebar moves above the article on a phone.</p>
-    </article>
-  </section>
+      <div>
+        <strong>5. Pseudo-class Selector (:hover)</strong>
+        <p>Applies styling when an element is in a particular state.</p>
+      </div>
+
+      <div>
+        <strong>6. Attribute Selector</strong>
+        <p>Selects elements based on their attributes or values.</p>
+      </div>
+
+    </div>
+  </article>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 3(b) · 4 MARKS · PRACTICAL</div>
+    <h3>Horizontal Navigation Bar for an Online News Portal</h3>
+
+    <p>
+      A navigation bar allows visitors to move between different
+      sections of a website.
+    </p>
+
+    <h4>Practical demonstration</h4>
+
+    <nav class="news-nav" aria-label="News website navigation">
+      <a href="#top">Home</a>
+      <a href="#question-one">Politics</a>
+      <a href="#question-two">Business</a>
+      <a href="#question-three">Technology</a>
+      <a href="#question-three">Sports</a>
+    </nav>
+
+    <p>
+      The navigation bar has a dark background, white links,
+      evenly spaced items, no underlining and an orange hover effect.
+    </p>
+  </article>
+
+  <article class="answer-card">
+    <div class="part-label">QUESTION 3(c) · 5 MARKS · PRACTICAL</div>
+    <h3>Responsive Climate-Awareness Campaign Layout</h3>
+
+    <p>
+      A responsive webpage adjusts its layout according to
+      the screen size of the device being used.
+    </p>
+
+    <h4>Practical demonstration</h4>
+
+    <div class="climate-demo">
+
+      <aside class="climate-facts">
+        <h4>Quick Facts</h4>
+
+        <ul>
+          <li>Plant trees and protect forests.</li>
+          <li>Save electricity and water.</li>
+          <li>Use public transport where possible.</li>
+          <li>Reduce, reuse and recycle waste.</li>
+        </ul>
+      </aside>
+
+      <article class="climate-article">
+
+        <p class="eyebrow">CLIMATE ACTION · KENYA</p>
+
+        <h4>Small Actions. A Healthier Planet.</h4>
+
+        <p>
+          Climate change affects rainfall, food production,
+          water availability and livelihoods.
+        </p>
+
+        <p>
+          Communities can help by conserving resources,
+          planting indigenous trees, reducing waste and
+          choosing cleaner transport.
+        </p>
+
+        <p>
+          Schools, families and organisations can organise
+          clean-ups, tree-growing activities and awareness
+          campaigns.
+        </p>
+
+      </article>
+
+    </div>
+
+    <p class="note">
+      <strong>Why it is responsive:</strong>
+      The layout displays two columns on wider screens and
+      changes to one column on smaller screens such as mobile phones.
+    </p>
+  </article>
+
+</section>
+
 </main>
 
 <footer class="site-footer">
   <p><strong>CPP 702 · Internet Application Programming</strong></p>
-  <p>Revision website containing the selected questions from the supplied August 2026 examination paper.</p>
+
+  <p>
+    Revision website containing selected questions from
+    the August 2026 examination paper.
+  </p>
+
   <a href="#top">Return to top ↑</a>
 </footer>
+
 </body>
 </html>
